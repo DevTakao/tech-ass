@@ -7,6 +7,7 @@ export default {
         base: "18px",
         lg: "20px",
         "2xl": "24px",
+        hero: "clamp(30px, 10vw, 112px)",
       },
       colors: {
         pinkBright: "#FF60E6",

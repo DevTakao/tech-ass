@@ -13,7 +13,7 @@ import RightBulb from "../assets/right-bulb.png";
 
 function HeroText() {
   return (
-    <div className="hero-text whitespace-nowrap text-[96px] 2xl:text-[112px] font-bold leading-[100%]">
+    <div className="hero-text whitespace-nowrap text-hero 2xl:text-[112px] font-bold leading-[100%]">
       <h1>
         Spark your brand&apos;s
         <br />
@@ -57,8 +57,8 @@ function HeroCTAInput() {
 
 const CTASection = () => {
   return (
-    <section className="py-[140px] relative w-full overflow-hidden">
-      <div className="left-decorations absolute -z-[1] h-full w-[282px] top-0 left-0">
+    <section className="py-10 lg:py-[140px] relative w-full overflow-hidden">
+      <div className="left-decorations hidden xl:block absolute -z-[1] h-full w-[282px] top-0 left-0">
         <div className="relative w-full h-full">
           <div className="max-w-full">
             <HeroLineLeft />
@@ -85,12 +85,12 @@ const CTASection = () => {
           />
         </div>
       </div>
-      <div className="inner-content max-w-[977px] mx-auto text-center space-y-8">
+      <div className="inner-content max-w-[977px] mx-auto text-center space-y-8 px-5 lg:px-0">
         <HeroText />
         <HeroDescription />
         <HeroCTAInput />
       </div>
-      <div className="right-decorations absolute -z-[1] h-full w-[269px] top-0 right-0">
+      <div className="right-decorations hidden xl:block absolute -z-[1] h-full w-[269px] top-0 right-0">
         <div className="relative w-full h-full">
           <div className="h-[62.7%] absolute top-[25.86%] right-0">
             <HeroLineRight />
