@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <main>
+    <main className="w-full overflow-x-clip">
       <Nav />
       <CTASection />
       <PartnerSection />
