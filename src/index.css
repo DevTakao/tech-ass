@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* * {
@@ -13,13 +13,17 @@ html {
 } */
 
 @layer base {
-    body {
-        @apply text-base text-dark bg-light;
-    }
+  body {
+    @apply text-base text-dark bg-light;
+  }
 }
 
 @layer components {
+  .container {
+    @apply max-w-[1192px] mx-auto;
+  }
+  
   .button-primary {
-    @apply bg-pinkBright text-base font-semibold leading-[133.33%] tracking-[0.18px] py-3 px-8 rounded-full; 
+    @apply bg-pinkBright text-base font-semibold leading-[133.33%] tracking-[0.18px] py-3 px-8 rounded-full;
   }
 }

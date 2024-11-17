@@ -12,18 +12,16 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <main>
-      <div className="max-w-[1192px] mx-auto">
-        <Nav />
-        <CTASection />
-        <PartnerSection />
-        <ImpactArtwork />
-        <SloganSection />
-        <WorkflowSection />
-        <QuoteSection />
-        <CharityAd />
-        <ContactSection />
-        <Footer />
-      </div>
+      <Nav />
+      <CTASection />
+      <PartnerSection />
+      <ImpactArtwork />
+      <SloganSection />
+      <WorkflowSection />
+      <QuoteSection />
+      <CharityAd />
+      <ContactSection />
+      <Footer />
     </main>
   );
 };
