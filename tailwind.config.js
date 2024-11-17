@@ -13,6 +13,7 @@ export default {
         pinkDim: "#FFADF2",
         light: "#F8F5F0",
         dark: "#1F392C",
+        grey: "#D4D4D4",
       },
     },
   },
