@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 16px;
+}
+
+/* * {
+    outline: blue;
+    outline-width: 1px;
+    outline-style: solid;
+} */
+
+@layer base {
+    body {
+        @apply text-base text-dark bg-light;
+    }
+}
+
+@layer components {
+  .button-primary {
+    @apply bg-pinkBright text-base font-semibold leading-[133.33%] tracking-[0.18px] py-3 px-8 rounded-full; 
+  }
+}
